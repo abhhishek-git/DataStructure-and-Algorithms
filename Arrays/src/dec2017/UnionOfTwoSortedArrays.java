@@ -1,5 +1,5 @@
 package dec2017;
-
+// Time complexity: O(m+n)
 public class UnionOfTwoSortedArrays {
    public static void main(String[] args) {
 	int[] arr1= {1,3,4,5,7,9,10};
