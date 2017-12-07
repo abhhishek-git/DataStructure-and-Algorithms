@@ -1,5 +1,6 @@
 package dec2017;
-
+// O(n)
+// better than using sum formula because sum of numbers may go beyond maximum allowed integer i.e there can be integer overflow
 public class FindMissingNumber_usingXOR {
 	public static void main(String[] args) {
 		int[] arr = {1,2,3,5,6,7};
