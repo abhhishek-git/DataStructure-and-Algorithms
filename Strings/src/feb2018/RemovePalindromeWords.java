@@ -3,11 +3,11 @@ package feb2018;
 public class RemovePalindromeWords {
 	public static void main(String[] args) {
 		String str = "Text contains malayalam and level words";
-		System.out.println(removePalinWords(str));
+		System.out.println();
 	}
 	
 	public static String removePalinWords(String str) {
-		//'final_string' to store the final string
+		//'final_string' to store the final string 
 		//'word' to one by one store each word of 'str'
 		String final_string ="", word ="";
 		
