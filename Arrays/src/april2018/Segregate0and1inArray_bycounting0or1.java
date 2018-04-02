@@ -1,5 +1,8 @@
 package april2018;
 
+
+//O(n)
+//Array will have to be traversed twice. Once for counting and second time to put array values
 public class Segregate0and1inArray_bycounting0or1 {
 	public static void main(String[] args) {
 		int[] arr = {0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0};
