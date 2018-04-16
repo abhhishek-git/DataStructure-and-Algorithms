@@ -1,5 +1,6 @@
 package april2018;
 
+//O(2^n) -> exponential 
 public class CatalanNumber_RecursiveSolution {
 	public static void main(String[] args) {
 		System.out.println(catalan(4));
