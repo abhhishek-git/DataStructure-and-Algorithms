@@ -1,5 +1,6 @@
 package april2018;
 
+//O(n^2) -> improvement over recursive solution
 public class CatalanNumber_DynamicProgramming {
 	public static void main(String[] args) {
 		System.out.println(catalan(4));
