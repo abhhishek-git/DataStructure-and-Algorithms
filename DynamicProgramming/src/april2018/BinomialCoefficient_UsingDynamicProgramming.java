@@ -1,8 +1,9 @@
 package april2018;
-
+//overlapping subproblem
+// constructing a temporary array C[][] in bottom up manner.
 public class BinomialCoefficient_UsingDynamicProgramming {
 	public static void main(String[] args) {
-		int n= 3;
+		int n= 5;
 		int k=2;
 		System.out.println(binomial(n,k));
 	}
