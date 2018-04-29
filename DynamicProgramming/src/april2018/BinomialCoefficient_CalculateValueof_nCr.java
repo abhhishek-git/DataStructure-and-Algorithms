@@ -1,7 +1,8 @@
 package april2018;
 
 //binomial coefficient is found in same way
-public class CalculateValueof_nCr {
+//using nCr formula
+public class BinomialCoefficient_CalculateValueof_nCr {
 	public static void main(String[] args) {
 		int n= 5, r=2;
 		System.out.println("nCr = "+ fact(n)/(fact(r)*fact(n-r)));
