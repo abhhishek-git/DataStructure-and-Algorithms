@@ -1,5 +1,6 @@
 package april2018;
 
+//binomial coefficient is found in same way
 public class CalculateValueof_nCr {
 	public static void main(String[] args) {
 		int n= 5, r=2;
