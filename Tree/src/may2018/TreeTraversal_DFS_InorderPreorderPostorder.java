@@ -2,15 +2,7 @@ package may2018;
 
 //O(n)
 //T(n)  = T(k) + T(n-k-1) + c
-class Node{
-	Node left, right;
-	int key;
-	Node(int item){
-		key = item;
-		left = null;
-		right = null;
-	}
-}
+
 public class TreeTraversal_DFS_InorderPreorderPostorder {
   Node root;
   
@@ -42,7 +34,7 @@ public class TreeTraversal_DFS_InorderPreorderPostorder {
   public void preorder(Node node) {
 	  if(node == null)
 		  return;
-	  System.out.print(node.key+ " ");
+	  System.out.print(node.data+ " ");
 	  preorder(node.left);
 	  preorder(node.right);
   }
@@ -52,14 +44,14 @@ public class TreeTraversal_DFS_InorderPreorderPostorder {
 		  return;
 	  postorder(node.left);
 	  postorder(node.right);
-	  System.out.print(node.key+ " ");
+	  System.out.print(node.data+ " ");
   }
   
   public void inorder(Node node) {
 	  if(node == null)
 		  return;
 	  inorder(node.left);
-	  System.out.print(node.key+ " ");
+	  System.out.print(node.data+ " ");
 	  inorder(node.right);
   }
 }
