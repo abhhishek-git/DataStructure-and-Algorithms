@@ -18,7 +18,7 @@ public class TreeTraversal_BFS_LevelOrderTraversal {
 	}
 	
 	public void printLevelOrder() {
-		Queue<Node> queue = new LinkedList();
+		Queue<Node> queue = new LinkedList<Node>();
 		queue.add(root);
 		while(!queue.isEmpty()) {
 			//poll() removes the present head.
