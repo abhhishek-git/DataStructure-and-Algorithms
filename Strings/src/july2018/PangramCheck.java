@@ -29,14 +29,15 @@ public class PangramCheck {
 			  index = str.charAt(i)-'A';
 		  else if('a'<= str.charAt(i) && str.charAt(i)<='z')
 			  index = str.charAt(i)-'a';
-		  
+		  //Mark current character
 		  mark[index] =true;
 		}
-		
+		//Return false if any character is unmarked
 		for(int i=0; i<=25; i++){
 			if(mark[i] == false)
 				return false;
 		}
+		//If all characters were present
 		return true;
 			
 	}
