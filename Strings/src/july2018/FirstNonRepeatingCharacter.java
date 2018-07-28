@@ -1,5 +1,6 @@
 package july2018;
 
+//This approach also takes O(n) only
 public class FirstNonRepeatingCharacter {
 	static char[] count = new char[256];
 	
