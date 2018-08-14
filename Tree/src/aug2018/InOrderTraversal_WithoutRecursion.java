@@ -1,9 +1,25 @@
 package aug2018;
 
+import java.util.Stack;
+
 public class InOrderTraversal_WithoutRecursion {
 	Node root;
 	void inOrder(){
-		
+		if(root == null)
+			return;
+		Stack<Node> stack = new Stack<Node>();
+		Node curr = root;
+		while(curr!=null ||  stack.size()>0){
+			while(curr!= null){
+				stack.push(curr);
+				curr= curr.left;
+			}
+			
+			//curr is null at this point
+			curr = stack.pop();
+			System.out.print(curr.data+" ");
+			curr = curr.right;
+		}
 	}
 	public static void main(String[] args) {
 		InOrderTraversal_WithoutRecursion tree = new InOrderTraversal_WithoutRecursion();
