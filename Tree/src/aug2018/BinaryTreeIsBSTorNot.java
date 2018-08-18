@@ -10,7 +10,7 @@ class Node{
 }
 public class BinaryTreeIsBSTorNot {
 	Node root;
-	boolean isBST(){
+	public boolean isBST(){
 		return isBSTUtil(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
 	}
 	
