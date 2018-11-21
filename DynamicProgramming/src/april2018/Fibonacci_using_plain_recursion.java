@@ -5,7 +5,7 @@ package april2018;
 //Intuitively , T(n)= O(2^n)
 public class Fibonacci_using_plain_recursion {
 	public static void main(String[] args) {
-		System.out.println(fib(5));
+		System.out.println(fib(30));
 	}
 	
 	public static int fib(int n) {
